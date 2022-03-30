@@ -1,0 +1,222 @@
+#==============================================================================
+#
+# 『モデルビューワ』スクリプトファイル [model.txt]
+# Author : NARUMI KOUKI
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 読み込むモデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 8
+
+#------------------------------------------------------------------------------
+# 読み込むモデルファイル名
+#------------------------------------------------------------------------------
+TEXTURE_NAME = data/TEXTURE/ouen_man.png					# [1]男性観客
+TEXTURE_NAME = data/TEXTURE/ElectricBulletin2.jpg			# [2]電光掲示板
+TEXTURE_NAME = data/TEXTURE/ouen_woman.png					# [3]女性観客
+TEXTURE_NAME = data/TEXTURE/sarari-man_ouen.png				# [4]サラリーマンの観客
+TEXTURE_NAME = data/TEXTURE/alien_ouen.png					# [5]エイリアンの観客
+TEXTURE_NAME = data/TEXTURE/audience.png					# [6]後方の観客
+TEXTURE_NAME = data/TEXTURE/bro.png							# [7]黒人の観客
+TEXTURE_NAME = data/TEXTURE/mukimuki_Dog.png				# [8]犬の観客
+#------------------------------------------------------------------------------
+# 表示するモデルの配置情報
+#------------------------------------------------------------------------------
+#--------------------------------------
+# 男性観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 120.0 30.0 500.0
+	SIZE = 90.0 80.0
+	TYPE = 1
+END_BILLBOARDSET
+
+#--------------------------------------
+# 電光掲示板
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 0.0 60.0 500.0
+	SIZE = 150.0 75.0
+	TYPE = 2
+END_BILLBOARDSET
+
+#--------------------------------------
+# 女性観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = -120.0 20.0 500.0
+	SIZE = 90.0 80.0
+	TYPE = 3
+END_BILLBOARDSET
+
+#--------------------------------------
+# サラリーマン観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 200.0 10.0 500.0
+	SIZE = 160.0 150.0
+	TYPE = 4
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -200.0 10.0 500.0
+	SIZE = 160.0 150.0
+	TYPE = 4
+END_BILLBOARDSET
+
+#--------------------------------------
+# エイリアン観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 280.0 30.0 500.0
+	SIZE = 100.0 100.0
+	TYPE = 5
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -280.0 30.0 500.0
+	SIZE = 100.0 100.0
+	TYPE = 5
+END_BILLBOARDSET
+
+#--------------------------------------
+# 後方の観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 175.0 20.0 650.0
+	SIZE = 275.0 200.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 450.0 20.0 650.0
+	SIZE = 300.0 200.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 400.0 20.0 650.0
+	SIZE = 300.0 200.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -175.0 20.0 650.0
+	SIZE = 275.0 200.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -450.0 20.0 650.0
+	SIZE = 300.0 200.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -400.0 20.0 650.0
+	SIZE = 300.0 200.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 430.0 20.0 450.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 450.0 20.0 280.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 460.0 20.0 180.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 460.0 20.0 100.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = 455.0 20.0 10.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -430.0 20.0 450.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -450.0 20.0 280.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -460.0 20.0 180.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -460.0 20.0 100.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -470.0 20.0 10.0
+	SIZE = 275.0 150.0
+	TYPE = 6
+END_BILLBOARDSET
+
+#--------------------------------------
+# 黒人の観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 400.0 20.0 500.0
+	SIZE = 150.0 150.0
+	TYPE = 7
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -400.0 20.0 500.0
+	SIZE = 150.0 150.0
+	TYPE = 7
+END_BILLBOARDSET
+
+#--------------------------------------
+# 犬の観客
+#--------------------------------------
+
+BILLBOARD_SET
+	POS = 360.0 20.0 400.0
+	SIZE = 100.0 100.0
+	TYPE = 8
+END_BILLBOARDSET
+
+BILLBOARD_SET
+	POS = -360.0 20.0 400.0
+	SIZE = 100.0 100.0
+	TYPE = 8
+END_BILLBOARDSET
+
+END_SCRIPT		# この行は絶対消さないこと！

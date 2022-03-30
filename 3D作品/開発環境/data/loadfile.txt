@@ -1,0 +1,713 @@
+#==============================================================================
+#
+# 『モデル配置』スクリプトファイル [loadfile.txt]
+# Author : NARUMI KOUKI
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 読み込むモデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 8
+
+#------------------------------------------------------------------------------
+# 読み込むモデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/house.x					# [0]家
+MODEL_FILENAME = data/MODEL/biru.x				# [1]ビル
+MODEL_FILENAME = data/MODEL/dentyu.x				# [2]電柱
+MODEL_FILENAME = data/MODEL/colorcone.x					# [3]カラーコーン
+MODEL_FILENAME = data/MODEL/kouzi_mokuzai.x				# [4]建設現場の木材
+MODEL_FILENAME = data/MODEL/buranko.x				# [5]ブランコ
+MODEL_FILENAME = data/MODEL/tree.x					# [6]木
+#------------------------------------------------------------------------------
+# 表示するモデルの配置情報
+#------------------------------------------------------------------------------
+#--------------------------------------
+# 家
+#--------------------------------------
+MODELSET
+	TYPE = 0
+	POS = -180.0 3.0 -180.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 260.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 290.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 320.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 350.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 290.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 90.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 120.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 150.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 180.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 -80.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 150.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 -50.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 -20.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -40.0 3.0 10.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 260.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0f 3.0f 290.0f
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 320.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 350.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 90.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 120.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 150.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0f 3.0f 180.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 -80.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 -50.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 -20.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100.0 3.0 10.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 420.0 3.0 400.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 0.0 3.0 -300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+#--------------------------------------
+# ビル
+#--------------------------------------
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 0.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 150.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 300.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 450.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 -150.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 -300.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -450.0 20.0 -450.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 410.0 20.0 0.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+#--------------------------------------
+# 電柱
+#--------------------------------------
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 0.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 100.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 300.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 400.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 -100.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 -200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 -300.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -400.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 100.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 350.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 400.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 -100.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 -200.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 -300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -250.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -350.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -280.0 2.0 -450.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -210.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -140.0 2.0 -450.0
+	ROT = 0.0 -1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = -70.0 2.0 -450.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 0.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 70.0 2.0 -450.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 140.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 210.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 280.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 350.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 420.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 400.0 2.0 200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 400.0 2.0 300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 370.0 2.0 400.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 400.0 2.0 -200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 400.0 2.0 -300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 400.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 100.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 400.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 -100.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 -200.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 -300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 250.0 2.0 -450.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+#--------------------------------------
+# 三角コーン
+#--------------------------------------
+
+MODELSET
+	TYPE = 3
+	POS = 350.0 3.0 -10.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 350.0 3.0 -60.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 350.0 3.0 40.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 350.0 3.0 -110.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 370.0 3.0 60.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 370.0 3.0 -140.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS =420.0 3.0 60.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 420.0 3.0 -140.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 470.0 3.0 60.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 470.0 3.0 -140.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+#--------------------------------------
+# 建設現場の木材
+#--------------------------------------
+
+MODELSET
+	TYPE = 4
+	POS = -130.0 3.0 -150.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = 410.0 3.0 -40.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = 410.0 3.0 -70.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = 410.0 3.0 -100.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+#--------------------------------------
+# ブランコ
+#--------------------------------------
+
+MODELSET
+	TYPE = 5
+	POS = -200.0 15.0 300.0
+	ROT = 0.0 1.57 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 5
+	POS = 170.0 15.0 -300.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+#--------------------------------------
+# 木
+#--------------------------------------
+
+MODELSET
+	TYPE = 6
+	POS = -250.0 12.0 40.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -220.0 12.0 100.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -250.0 12.0 180.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -220.0 12.0 240.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 250.0 12.0 -40.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 220.0 12.0 -100.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 250.0 12.0 -180.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 220.0 12.0 -240.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 250.0 12.0 -300.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 220.0 12.0 -350.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 250.0 12.0 300.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 220.0 12.0 0.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = -50.0 12.0 -320.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 70.0 12.0 -320.0
+	ROT = 0.0 0.0 0.0
+END_MODELSET
+
+END_SCRIPT		# この行は絶対消さないこと！
